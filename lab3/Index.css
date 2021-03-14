@@ -26,10 +26,6 @@ h4,h5{
     margin-bottom:-2%;
 }
 
-hr{
-    color:white;
-}
-
 img.elon{
     display: block;
     margin:0 auto;
@@ -39,8 +35,8 @@ img.elon{
 }
 
 img.info{
-    width: 4%;
-    height: 4%;
+    width: 10%;
+    height: 10%;
 }
 
 p{
@@ -100,9 +96,8 @@ ul li{
     display: block;
     line-height: 1.6em;
 }
-
-ul.languages li{
-    text-align: left;
+p.languages{
+    line-height: 1mm;
 }
 
 ul.interests li{
