@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Amazon</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <script src="Scripts\formulario.js"></script>
+</head>
+<body >
+    <img src="Imagenes/prime.png" alt="">
+    <form method="POST" class="form-register" onsubmit="return validar();">
+        <h1>Crear cuenta</h1>
+        <div class="contenedor">
+            <h3>Nombre</h3>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-1">
+            <h3>Correo electrónico</h3>
+            <input type="email" id="email" name="email" placeholder="Email" class="input-2" >
+            <h3>Contraseña</h3>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" class="input-1" >
+            <p>La contraseña debe tener 6 caracteres como mínimo.</p>
+            <h3>Confirma tu contraseña</h3>
+            <input type="password" id="confirmar-contraseña" name="contraseña" placeholder="Confirmar Contraseña" class="input-1" >
+            <input type="submit" value="Crea tu cuenta de Amazon" class="btn-enviar">
+            <p>Al identificarte aceptas nuestras <a href="">Condiciones de uso y venta.</a> Consulta
+            nuestro <a href="">Aviso de privacidad</a>, nuestro <a href="">Aviso de cookies</a> y
+            nuestro <a href="">Aviso sobre publicidad basada en los intereses del usuario.</a></p>
+            <p class="form-link">¿Ya tiene una cuenta?<a href="#">Iniciar sesión</a></p>
+        </div>
+    </form>
+</body>
+
+<footer>
+    <ol>
+        <li><a href="">Condiciones de uso</a></li>
+        <li><a href="">Aviso de privacidad</a></li>
+        <li><a href="">Ayuda</a></li>
+    </ol>
+    <p>1996-2021, Amazon.com, Inc. o afiliados. Todos los derechos reservados.</p>
+</footer>
+</html>
